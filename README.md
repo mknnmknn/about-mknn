@@ -10,7 +10,7 @@ Long background in web development and data architecture; more recently building
 A web application for managing and printing D&D 5e spell cards. ~2,000 spells imported from structured source documents, stored in SQLite, and rendered as print-ready PDF card sheets.
 
 **Stack:** Python · Flask · SQLite · Playwright · Jinja2 · vanilla JS  
-**Interesting problems:** Import process from repetitively structured Word document, Spell card overflow detection and automatic multi-card splitting with related dynamic formatting; a named-rule auto-formatter for spell description markup; Playwright-driven PDF generation; .
+**Interesting problems:** Import process from repetitively structured Word documents, Spell card overflow detection and automatic multi-card splitting with related dynamic formatting; a named-rule auto-formatter for spell description markup; Playwright-driven PDF generation.
 
 ---
 
@@ -18,7 +18,7 @@ A web application for managing and printing D&D 5e spell cards. ~2,000 spells im
 A cross-era NFL fantasy football simulation engine. Players are rated by season; outcomes are probability-driven rather than physics-based.
 
 **Stack:** Python · Flask · SQLite · SQLAlchemy · HTMX · Alpine.js  
-**Interesting problems:** So. Many. Most of which back end to the complexity of creating a simulation that "feels like" an actual sport. Currently deep in the weeds of simulating individual plays that are sensitive to the contributions of all 22 players on the field. Cross-era player normalization and rating systems; single-player simulation loop with meaningful variance.
+**Interesting problems:** Simulating plays that "feels like" an actual sport: currently, focused on creating a structure for individual plays that is sensitive to the contributions of all 22 players on the field. Cross-era player normalization and rating systems; single-player simulation loop with meaningful variance.
 
 ---
 
