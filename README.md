@@ -1,6 +1,6 @@
 # About
 
-Long background in web development and data architecture; more recently building full-stack applications as part of ongoing AI experimentation and learning.
+I'm a technology leader who builds things to learn them. The projects here are how I stay close to the work — not as a credential, but because the best way to have a real opinion about a technology is to use it to solve a real problem. Currently: an AI-powered job search pipeline (because of course), a D&D spell card renderer (because the homebrew was out of control), technical enhancements to a passion project around the Negro Leagues, and an NFL simulation engine (because sports simulations are hard and fascinating).
 
 ---
 
@@ -28,7 +28,7 @@ A cross-era NFL fantasy football simulation engine. Players are rated by season;
 Documentation and tooling for a Negro Leagues historical projection project at [i9s.org](https://www.i9s.org).
 
 ### [career-ops-dml](https://github.com/mknnmknn/career-ops-dml)
-AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing. Essentially a private fork.
+AI-powered job search pipeline built on Claude Code. 14 skill modes, Go TUI dashboard, Playwright PDF generation, batch processing with parallel workers. Active daily use. All credit to the santifer's original work.
 
 ---
 
