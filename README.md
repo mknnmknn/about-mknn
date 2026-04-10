@@ -28,7 +28,7 @@ A cross-era NFL fantasy football simulation engine. Players are rated by season;
 Documentation and tooling for a Negro Leagues historical projection project at [i9s.org](https://www.i9s.org).
 
 ### [career-ops-dml](https://github.com/mknnmknn/career-ops-dml)
-AI-powered job search pipeline built on Claude Code. 14 skill modes, Go TUI dashboard, Playwright PDF generation, batch processing with parallel workers. Active daily use. All credit to the santifer's original work.
+AI-powered job search pipeline built on Claude Code. 14 skill modes, Go TUI dashboard, Playwright PDF generation, batch processing with parallel workers. Active daily use. All credit to santifer's original work.
 
 ---
 
