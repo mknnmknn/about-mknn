@@ -1,11 +1,11 @@
 # About
 
-I'm a technology leader who builds things to learn them. The projects here are represent my most recent forays into AI driven coding, largely utilizing Claude Code. I present them as proof-of-concept, and as support for my engagement with these technologies reaching beyond the theoretical.
+I'm a technology leader who builds things to learn them. The projects here represent my most recent forays into AI driven coding, largely utilizing Claude Code. I present them as proof-of-concept, and as support for my engagement with these technologies reaching beyond the theoretical.
 
 Currently, I move back and forth bewteen
 
 - an AI-powered job search pipeline (because of course),
-- a website that prodcues PDF's on demand for sets of reference cards (specifically, D&D spell cards, because the homebrew was out of control)
+- a website that produces PDF's on demand for sets of reference cards (specifically, D&D spell cards, because the homebrew was out of control)
 - a suite of technical enhancements to a passion project around the Negro Leagues, and
 - an NFL simulation engine (because sports simulations are hard and fascinating).
 
