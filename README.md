@@ -16,10 +16,12 @@ More info at each below.
 ## Active Projects
 
 ### Alemi Spells *(private)*
-A web application for managing and printing D&D 5e spell cards. ~2,000 spells imported from structured source documents, stored in SQLite, and rendered as print-ready PDF card sheets. Includes fairly complex search interface, and a user management component.
+A members-only web application for managing and printing D&D 5e spell cards. ~2,000 spells imported from structured source documents, stored in SQLite, and rendered as print-ready PDF card sheets. Includes fairly complex search interface, and a user management component.
 
 **Stack:** Python · Flask · SQLite · Playwright · Jinja2 · vanilla JS  
 **Interesting problems:** Import process from repetitively structured Word documents, text overflow detection and automatic multi-card splitting with related dynamic formatting; a named-rule auto-formatter for spell description markup; Playwright-driven PDF generation; real human usable search interface covering multi-variant queries.
+
+Publicly hosted via DigitalOcean, which has also required a lifelong Windows nerd to delve back into the arcane reaches of LINUX, which is good for me.
 
 ---
 
