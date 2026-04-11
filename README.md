@@ -1,16 +1,25 @@
 # About
 
-I'm a technology leader who builds things to learn them. The projects here are how I stay close to the work — not as a credential, but because the best way to have a real opinion about a technology is to use it to solve a real problem. Currently: an AI-powered job search pipeline (because of course), a D&D spell card renderer (because the homebrew was out of control), technical enhancements to a passion project around the Negro Leagues, and an NFL simulation engine (because sports simulations are hard and fascinating).
+I'm a technology leader who builds things to learn them. The projects here are represent my most recent forays into AI driven coding, largely utilizing Claude Code. I present them as proof-of-concept, and as support for my engagement with these technologies reaching beyond the theoretical.
+
+Currently, I move back and forth bewtee
+
+- an AI-powered job search pipeline (because of course),
+- a website that prodcues PDF's on demand for sets of reference cards (specifically, D&D spell cards, because the homebrew was out of control)
+- a suite of technical enhancements to a passion project around the Negro Leagues, and
+- an NFL simulation engine (because sports simulations are hard and fascinating).
+
+More info at each below.
 
 ---
 
 ## Active Projects
 
 ### Alemi Spells *(private)*
-A web application for managing and printing D&D 5e spell cards. ~2,000 spells imported from structured source documents, stored in SQLite, and rendered as print-ready PDF card sheets.
+A web application for managing and printing D&D 5e spell cards. ~2,000 spells imported from structured source documents, stored in SQLite, and rendered as print-ready PDF card sheets. Includes fairly complex search interface, and a user management component.
 
 **Stack:** Python · Flask · SQLite · Playwright · Jinja2 · vanilla JS  
-**Interesting problems:** Import process from repetitively structured Word documents, Spell card overflow detection and automatic multi-card splitting with related dynamic formatting; a named-rule auto-formatter for spell description markup; Playwright-driven PDF generation.
+**Interesting problems:** Import process from repetitively structured Word documents, text overflow detection and automatic multi-card splitting with related dynamic formatting; a named-rule auto-formatter for spell description markup; Playwright-driven PDF generation; real human usable search interface covering multi-variant queries.
 
 ---
 
@@ -18,10 +27,12 @@ A web application for managing and printing D&D 5e spell cards. ~2,000 spells im
 
 Documentation and tooling for a Negro Leagues historical projection project at [i9s.org](https://www.i9s.org). Built atop WordPress, data served by Pods.
 
+**Interesting problems:** Building an import engine for future player display, improving Pods' native displays to include additional information and totals, data quality tools and a custom admin suite.
+
 ---
 
 ### WFL Sim *(private)*
-A cross-era NFL fantasy football simulation engine. Players are rated by season; outcomes are probability-driven rather than physics-based.
+A cross-era NFL football historical simulation engine. Players are rated by season; outcomes are probability-driven rather than physics-based.
 
 **Stack:** Python · Flask · SQLite · SQLAlchemy · HTMX · Alpine.js  
 **Interesting problems:** Simulating plays that "feels like" an actual sport: currently, focused on creating a structure for individual plays that is sensitive to the contributions of all 22 players on the field. Cross-era player normalization and rating systems; single-player simulation loop with meaningful variance.
