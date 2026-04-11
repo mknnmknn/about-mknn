@@ -23,6 +23,8 @@ A members-only web application for managing and printing D&D 5e spell cards. ~2,
 
 Publicly hosted via DigitalOcean, which has also required a lifelong Windows nerd to delve back into the arcane reaches of LINUX, which is good for me.
 
+This is the most _complete_ project: from vision through prototypes all the way through public usage. Mostly done intentionally via Claude Chat, as I wanted to be able to both modify and examine all of the code--from python files through HTML and css--as a learning process, and to shake off whatever development rust I was feeling.
+
 ---
 
 ### [i9s](https://github.com/mknnmknn/i9s) *(public)*
