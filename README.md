@@ -14,6 +14,12 @@ A web application for managing and printing D&D 5e spell cards. ~2,000 spells im
 
 ---
 
+### [i9s](https://github.com/mknnmknn/i9s) *(public)*
+
+Documentation and tooling for a Negro Leagues historical projection project at [i9s.org](https://www.i9s.org). Built atop WordPress, data served by Pods.
+
+---
+
 ### WFL Sim *(private)*
 A cross-era NFL fantasy football simulation engine. Players are rated by season; outcomes are probability-driven rather than physics-based.
 
@@ -22,12 +28,7 @@ A cross-era NFL fantasy football simulation engine. Players are rated by season;
 
 ---
 
-## Public
-
-### [i9s](https://github.com/mknnmknn/i9s)
-Documentation and tooling for a Negro Leagues historical projection project at [i9s.org](https://www.i9s.org).
-
-### [career-ops-dml](https://github.com/mknnmknn/career-ops-dml)
+### [career-ops-dml](https://github.com/mknnmknn/career-ops-dml) *(original fork public, customizations maintained locally)*
 AI-powered job search pipeline built on Claude Code. 14 skill modes, Go TUI dashboard, Playwright PDF generation, batch processing with parallel workers. Active daily use. All credit to santifer's original work.
 
 ---
