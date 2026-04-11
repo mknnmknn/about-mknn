@@ -25,6 +25,8 @@ Publicly hosted via DigitalOcean, which has also required a lifelong Windows ner
 
 This is the most _complete_ project: from vision through prototypes all the way through public usage. Mostly done intentionally via Claude Chat, as I wanted to be able to both modify and examine all of the code--from python files through HTML and css--as a learning process, and to shake off whatever development rust I was feeling.
 
+I plan to release this publicly with a db seeded with the public domain spells for 5e.
+
 ---
 
 ### [i9s](https://github.com/mknnmknn/i9s) *(public)*
