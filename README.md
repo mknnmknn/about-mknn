@@ -7,7 +7,8 @@ Currently, I spend my programming time moving back and forth between
 - an AI-powered job search pipeline (because of course),
 - a website that produces PDFs on demand for sets of reference cards (specifically, D&D spell cards, because the homebrew was out of control),
 - a suite of technical enhancements to a passion project around the Negro Leagues, and
-- an NFL simulation engine (because sports simulations are hard and fascinating).
+- an NFL simulation engine (because sports simulations are hard and fascinating), and
+- a long-running, cross-era baseball simulation with an LLM-driven co-commisioner (believe it or not, this may be the most challenging in terms of the application of AI to real-world problems).
 
 More info at each below.
 
@@ -44,6 +45,13 @@ A cross-era NFL football historical simulation engine. Players are rated by seas
 
 **Stack:** Python · Flask · SQLite · SQLAlchemy · HTMX · Alpine.js  
 **Interesting problems:** Simulating plays that "feels like" an actual sport: currently, focused on creating a structure for individual plays that is sensitive to the contributions of all 22 players on the field. Cross-era player normalization and rating systems; single-player simulation loop with meaningful variance.
+
+---
+
+### WBL (The Whirled Baseball League) *(private)*
+A cross-era baseball simulation.
+
+The relevance here is the challenge of using an LLM as a sounding board/co-commisioner. It's quite a hill to climb: how to force an LLM to draw hard boundaries around what it is allowed to know (in-game knowledge) and other extraneous information (who Roberto Clemente actually was IRL and his year by year record for the Pittsburgh Pirates). Combine that with the challenge of how to architect the system memory: what needs to be always available, what should the LLM fetch on demand, etc. and you have a fascinating set of LLM challenges.
 
 ---
 
