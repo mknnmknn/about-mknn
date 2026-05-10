@@ -48,6 +48,14 @@ A cross-era NFL football historical simulation engine. Players are rated by seas
 
 ---
 
+### [mediamonkey-wrench](https://github.com/mknnmknn/mediamonkey-wrench) (public)
+
+Tools around [MediaMonkey 5](https://www.mediamonkey.com/) and listening data. First tool — `listen-here` — generates listening-recaps with an automated connection to the WordPress enging at [mankinlevine.com](https://mankinlevine.com).
+
+**Stack:** Python · SQLite · WordPress REST API · HTML · external integrations
+
+---
+
 ### WBL (The Whirled Baseball League) *(private)*
 A cross-era baseball simulation.
 
