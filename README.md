@@ -67,7 +67,7 @@ It doesn't fully work, and the league keeps a record of that too. Some correctio
 
 ---
 
-### [career-ops-dml](https://github.com/mknnmknn/career-ops-dml) *(public)*
+### career-ops-dml *(private)*
 
 This started as a fork of [career-ops](https://github.com/santifer/career-ops), an AI job search pipeline built on Claude Code, and all credit for the original is santifer's. I've run it as my actual job search every week since April 2026, which has meant a lot of divergence: more than 3,000 postings tracked and 2,000 evaluated so far.
 
