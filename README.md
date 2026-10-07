@@ -17,15 +17,15 @@ More on each below. First, though, what they have in common.
 
 ## What keeps coming up
 
-The same few problems show up in all of them. This issue is, I think, at the crux of the challenge facing most AI deployments, from the personal to the enterprise.
+The same few problems show up in all of them. These are, I think, at the crux of the challenge facing most AI deployments, from the personal to the enterprise.
 
-**The LLM is a collaborator with no memory.** Every session starts from zero. So in each of these, the real engineering ended up being the arrangement around the model: what it always needs to know, what it should go look up, where decisions get written down so the 90th session doesn't reopen what the 12th settled, and how a correction becomes a rule that actually holds while comments do not become lazily translated as ultimatums.
+**The LLM is a collaborator with no memory.** Every session starts from zero. So in each of these, the real engineering ended up being the arrangement around the model: what it always needs to know, what it should go look up, where decisions get written down so the 90th session doesn't reopen what the 12th settled, and how a correction becomes a rule that actually holds, without every passing comment getting lazily translated into an ultimatum.
 
-That last pair is harder than it sounds. A rule filed somewhere the model doesn't read doesn't, in any meaningful sense, exist, and even the rules it does read wear off. And, an over-interpreted comment that is read as a rule can dictate later behavior in unexpected ways. It's knowledge management and governance, the same problems as running a team, compressed into a much tighter loop. And note that the LLM's preferred solve--_let me just make a note of that so it doesn't recur again_--is often numbingly ineffective.
+That last pair is harder than it sounds. A rule filed somewhere the model doesn't read doesn't, in any meaningful sense, exist, and even the rules it does read wear off. And an over-interpreted comment that is read as a rule can dictate later behavior in unexpected ways. It's knowledge management and governance, the same problems as running a team, compressed into a much tighter loop. And note that the LLM's preferred solve--_let me just make a note of that so it doesn't happen again_--is often numbingly ineffective.
 
 **Perfect information doesn't exist.** It's easy to build these systems in a perfectly informed world. Those don't really exist in real-world applications, and they don't exist in any project here either. This is part of why LLMs are so amazing at demos and sandbox exercises: when nothing exposes gaps in the data or edge cases in the UI or human preference in the UX, their designs are spectacular. Let me know the next time your problem space fits those dimensions.
 
-Here, Negro Leagues statistics are partial were often kept by hand, and are subject to vastly different interpretive lenses. A century of NFL data was recorded differently in every era, and the detailed play-level data only exists for recent seasons. The baseball league exists only in its own game exports, while the model shows up already "knowing" the real players. Job postings arrive from a dozen channels, plenty are missing key facts, and most importantly, your application is swimming upstream against the ATS.
+Here, Negro Leagues statistics are partial, were often kept by hand, and are subject to vastly different interpretive lenses. A century of NFL data was recorded differently in every era, and the detailed play-level data only exists for recent seasons. The baseball league exists only in its own game exports, while the model shows up already "knowing" the real players. Job postings arrive from a dozen channels, plenty are missing key facts, and most importantly, your application is swimming upstream against the ATS.
 
 So most of the design work is deciding what you can defensibly conclude from what's actually there, and making the gaps visible.
 
@@ -45,7 +45,7 @@ That's really three problems stacked on top of each other:
 - **Modeling.** Deciding what the engine has to simulate and what can be a stand-in, judged by one question: does it change the outcomes?
 - **Validation.** With dice and thousands of plays, a wrong result looks just as plausible as a right one. Every check has to say what it measured, and how big an effect it could actually have caught.
 
-It's also the biggest codebase here, built across more than a hundred Claude sessions, so it's where the no-memory problem gets tested hardest. Decisions get written up as decision records before the code, each in-progress branch carries its own record of where things stand, and the only thing I type to start a session is "orient." This project has also had the most maturation, from a more casual approach in the beginning to, pretty quickly, formal test suites and an ADR driven process.
+It's also the biggest codebase here, built across more than a hundred Claude sessions, so it's where the no-memory problem gets tested hardest. Decisions get written up as architecture decision records (ADRs) before the code, each in-progress branch carries its own record of where things stand, and the only thing I type to start a session is "orient." This project has also had the most maturation, from a more casual approach in the beginning to, pretty quickly, formal test suites and an ADR-driven process.
 
 **Stack:** Python · Flask · SQLite · SQLAlchemy · pandas · SciPy · HTMX · Alpine.js
 
